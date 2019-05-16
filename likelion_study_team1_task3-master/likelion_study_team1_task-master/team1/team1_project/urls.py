@@ -18,6 +18,7 @@ from django.urls import path
 import home.views
 import woosong.views
 import jeonghwano.views
+import myungjae.views
 
 urlpatterns = [
     
@@ -25,4 +26,5 @@ urlpatterns = [
     path('', home.views.home, name='home'),
     path('song', woosong.views.song, name='song'),
     path('jeonghwano', jeonghwano.views.jeonghwano, name='index4'),
+    path('myungjae', myungjae.views.myungjae, name='mj'),
 ]
