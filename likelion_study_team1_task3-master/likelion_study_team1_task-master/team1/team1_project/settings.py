@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'home',
     'woosong',
     'jeonghwano',
+    'myungjae',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
